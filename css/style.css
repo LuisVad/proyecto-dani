@@ -29,17 +29,50 @@ body{
         text-shadow: none;
     }
 }
-.greetings > span:nth-child(2){
-    animation-delay: .2s ;
+/* Retrasos para la palabra "HOLA" */
+.greetings:nth-child(1) > span:nth-child(1) {
+    animation-delay: 0s;
 }
-.greetings > span:nth-child(3){
-    animation-delay: .4s ;
+
+.greetings:nth-child(1) > span:nth-child(2) {
+    animation-delay: 0.2s;
 }
-.greetings > span:nth-child(4){
-    animation-delay: .6s;
+
+.greetings:nth-child(1) > span:nth-child(3) {
+    animation-delay: 0.4s;
 }
-.greetings > span:nth-child(5){
-    animation-delay: .8s;
+
+.greetings:nth-child(1) > span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+ /* Retrasos para la palabra "DANIELA" */
+ .greetings:nth-child(2) > span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.greetings:nth-child(2) > span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.greetings:nth-child(2) > span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.greetings:nth-child(2) > span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.greetings:nth-child(2) > span:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+.greetings:nth-child(2) > span:nth-child(6) {
+    animation-delay: 1s;
+}
+
+.greetings:nth-child(2) > span:nth-child(7) {
+    animation-delay: 1.2s;
 }
 
 .description{
